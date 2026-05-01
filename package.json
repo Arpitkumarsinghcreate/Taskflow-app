@@ -1,8 +1,7 @@
 {
   "name": "team-task-manager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TaskFlow Monorepo Root",
   "scripts": {
     "install:all": "npm install && cd client && npm install && cd ../server && npm install",
     "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\""
